@@ -3,8 +3,12 @@ git checkout xxx branch
 git status
 git add .
 git commit -m "xxx"
-git push
+git push 
+git push -f 强制推送
 
 git rebase -i HEAD ~1(合并commit信息为一条)
 commit message 中编辑 d放弃提交 pick选择提交
 esc键退出编辑 :wq保存编辑信息
+
+git log
+git diff commitnum1111 commitnum2222 > patch_name.patch 
